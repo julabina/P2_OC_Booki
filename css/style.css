@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+@import "./reset.css";
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Header start */
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerTop ul {
+    display: flex;
+}
+
+.headerTop li {
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.headerTop li:hover {
+    color: #0065FC;
+}
+
+.headerBot_search {
+    display: flex;
+}
+
+.headerBot_filter {
+    display: flex;
+}
+
+.headerBot_info {
+    display: flex;
+}
+
+/* Main start */
+
+.firstSection {
+    display: flex;
+}
+
+.firstSection_result {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstSection_result_row {
+    display: flex;
+}
+
+.firstSection_result_row_card {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstSection_popular {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstSection_popular_title {
+    display: flex;
+}
+
+.firstSection_popular_card {
+    display: flex;
+}
+
+.firstSection_popular_card_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.secondSection_container {
+    display: flex;
+}
+
+.secondSection_container_col {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer start */
+
+footer {
+    display: flex;
+    margin: 20px;
+}
+
+footer p {
+    margin-top: 15px;
+}
