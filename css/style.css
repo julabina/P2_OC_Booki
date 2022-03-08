@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+input:focus {
+    outline: none;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
@@ -382,7 +386,6 @@ footer p {
 .starContainer--popular {
     display: flex;
     margin: initial;
-    width: inherit;
 }
 
 .starContainer_star {
