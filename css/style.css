@@ -279,6 +279,13 @@ main {
     font-size: 18px;
 }
 
+.firstSection_result_more {
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 2%;
+    margin-top: 50px ;
+}
+
 .firstSection_popular {
     display: flex;
     flex-direction: column;
@@ -320,21 +327,21 @@ main {
     object-fit: cover;
     background-size:cover;
     min-width: 38%;
-    height: 160px;
+    height: 180px;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .firstSection_popular_cont_card_img--1 {
-    background-image: url("../assets/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-image: url("../assets/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
 }
 
 .firstSection_popular_cont_card_img--2 {
-    background-image: url("../assets/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-image: url("../assets/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg");
 }
 
 .firstSection_popular_cont_card_img--3 {
-    background-image: url("../assets/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-image: url("../assets/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
 }
 
 .firstSection_popular_cont_card_info {
@@ -355,13 +362,120 @@ main {
     font-size: 18px;
 }
 
+.secondSection {
+    border-radius: 30px;
+    margin-top: 80px;
+}
+
+.secondSection a {
+    width: 22%;
+}
+
 .secondSection_container {
     display: flex;
+    justify-content: space-between;
+}
+
+.secondSection_container_h3 {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    padding-left: 25px;
+    font-weight: 700;
+}
+
+.secondSection_container_alone {
+    height: 600px;
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.171);
+}
+
+.secondSection_container_alone_img {
+    min-height: 525px;
+}
+
+.secondSection_container_alone_img--1 {
+    background-image: url("../assets/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.secondSection_container_alone_img--2 {
+    background-image: url("../assets/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .secondSection_container_col {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    width: 22%;
+}
+
+.secondSection_container_col a {
+    width: 100%;
+}
+
+.secondSection_container_col_cont {
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.171);
+    width: 100%;
+}
+
+.secondSection_container_col_cont-1 {
+height: 320px;
+}
+
+.secondSection_container_col_cont-2 {
+height: 220px;
+}
+
+.secondSection_container_col_cont-3 {
+    height: 270px;
+}
+
+.secondSection_container_col_cont_img-1 {
+    background-image: url("../assets/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 245px;
+}
+
+.secondSection_container_col_cont_img-2 {
+    background-image: url("../assets/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 145px;
+}
+
+.secondSection_container_col_cont_img-3 {
+    background-image: url("../assets/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 195px;
+}
+
+.secondSection_container_col_cont_img-4 {
+    background-image: url("../assets/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 195px;
 }
 
 /* Footer start */
