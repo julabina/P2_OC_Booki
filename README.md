@@ -2,9 +2,9 @@
 
 ## Summary
 
-- Instruction(#instruction)
-	- Briefing(#briefing)
-	- Spécification(#specification)
+- [Instruction](#instruction)
+	- [Briefing](#briefing)
+	- [Spécification](#specification)
 
 
 
