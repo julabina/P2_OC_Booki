@@ -5,7 +5,7 @@
 - [Instruction](#instruction)
 	- [Briefing](#briefing)
 	- [Spécification](#specification)
-
+- [Resultat]()#resultat
 
 
 
@@ -16,11 +16,11 @@
 
 ![](./design/briefing.webp)
 
-### Spécifications
+### Specifications
 
 ![](./design/specifications_techniques.webp)
 
-
+## Resultat
 
 Live site : [Link](https://julabina.github.io/P2_OC_Booki/)
 
