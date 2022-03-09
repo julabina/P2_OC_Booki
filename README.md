@@ -1,7 +1,12 @@
 # Booki
 
 
+
+
+
+
 ## Instruction
+
 
 ### Briefing
 
@@ -9,7 +14,7 @@
 
 ### Spécifications
 
-![](./design/Specifications_techniques_et_fonctionnelles.pdf)
+![](./design/specifications_techniques.webp)
 
 
 
