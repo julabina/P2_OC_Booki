@@ -482,11 +482,32 @@ height: 220px;
 
 footer {
     display: flex;
-    margin: 20px;
+    margin-top: 80px;
+    padding: 70px;
+    background: salmon;
+}
+
+footer a {
+    display: initial;
+    width: auto;
 }
 
 footer p {
     margin-top: 15px;
+}
+
+footer h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+footer li {
+    line-height: 40px;
+}
+
+.footer_col {
+    width: 33%;
 }
 
  /* star svg */
