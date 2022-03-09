@@ -100,8 +100,12 @@ header {
 }
 
 #searchInput::placeholder {
+    color: black;   
+}
+
+#searchInput::-moz-placeholder {
     color: black;
-    
+    opacity: 1;
 }
 
 .headerBot_search_btn {
@@ -536,7 +540,7 @@ footer li {
 
 .starContainer_star {
     height: 16px;
-    fill: red;
+    fill: #e0e0e0;
 }
 
 .starContainer_star--fill {
