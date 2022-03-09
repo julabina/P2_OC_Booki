@@ -4,8 +4,8 @@
 
 - [Instruction](#instruction)
 	- [Briefing](#briefing)
-	- [Spécification](#specification)
-- [Resultat]()#resultat
+	- [Spécifications](#specifications)
+- [Resultat](#resultat)
 
 
 
