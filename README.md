@@ -1,6 +1,6 @@
 # Booki
 
-## Summary
+## Sommaire
 
 - [Instruction](#instruction)
 	- [Briefing](#briefing)
