@@ -122,6 +122,7 @@ header {
 .headerBot_filter {
     display: flex;
     margin: 40px 0 55px 0;
+    user-select: none;
 }
 
 .headerBot_filter_title {
@@ -144,6 +145,11 @@ header {
     transition: transform 400ms ease-in-out;
 }
 
+.headerBot_filter_cont:hover .headerBot_filter_cont_title{
+    opacity: 0.5;
+    transition: opacity 400ms ease-in-out;
+}
+
 .headerBot_filter_fiterLogo {
     display: flex;
     justify-content: center;
@@ -153,8 +159,8 @@ header {
     width: 55px;
 }
 
-.headerBot_filter_cont h2 {
-    line-height: 55px;
+.headerBot_filter_cont_title {
+    line-height: 50px;
     white-space: nowrap;
     border-top: #DEEBFF 2px solid;
     border-bottom: #DEEBFF 2px solid;
@@ -164,6 +170,8 @@ header {
     font-weight: 700;
     margin-left: -22px;
     border-radius: 0 55px 55px 0;
+    opacity: 1;
+    transition: opacity 400ms 150ms ease-in-out;
 }
 
 .headerBot_filter_fiterLogo_logo {
@@ -298,6 +306,8 @@ main {
     font-weight: 700;
     padding-left: 2%;
     margin-top: 50px ;
+    cursor: pointer;
+    width: 180px;
 }
 
 .firstSection_popular {
@@ -505,6 +515,13 @@ footer {
 footer a {
     display: initial;
     width: auto;
+    opacity: 1;
+    transition: opacity 300ms ease-in-out;
+}
+
+footer a:hover {
+    opacity: 0.7;
+    transition: opacity 150ms ease-in-out;
 }
 
 footer p {
