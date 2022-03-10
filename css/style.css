@@ -145,11 +145,6 @@ header {
     transition: transform 400ms ease-in-out;
 }
 
-.headerBot_filter_cont:hover .headerBot_filter_cont_title{
-    opacity: 0.5;
-    transition: opacity 400ms ease-in-out;
-}
-
 .headerBot_filter_fiterLogo {
     display: flex;
     justify-content: center;
@@ -168,10 +163,8 @@ header {
     padding: 0 20px 0 35px;
     font-size: 22px;
     font-weight: 700;
-    margin-left: -22px;
+    margin-left: -23px;
     border-radius: 0 55px 55px 0;
-    opacity: 1;
-    transition: opacity 400ms 150ms ease-in-out;
 }
 
 .headerBot_filter_fiterLogo_logo {
