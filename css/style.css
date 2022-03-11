@@ -135,12 +135,20 @@ header {
 
 .headerBot_filter_cont {
     display: flex;
+}
+
+.headerBot_filter_cont_top, .headerBot_filter_cont_bot{
+    display: flex;
+}
+
+.headerBot_filter_cont_filterCont {
+    display: flex;
     height: 55px;
     margin-right: 30px;
     cursor: pointer;
 }
 
-.headerBot_filter_cont:hover .headerBot_filter_fiterLogo_logo {
+.headerBot_filter_cont_filterCont:hover .headerBot_filter_fiterLogo_logo {
     transform: scale(1.4) rotate(10deg);
     transition: transform 400ms ease-in-out;
 }
@@ -154,7 +162,7 @@ header {
     width: 55px;
 }
 
-.headerBot_filter_cont_title {
+.headerBot_filter_cont_filterCont_title {
     line-height: 50px;
     white-space: nowrap;
     border-top: #DEEBFF 2px solid;
@@ -259,27 +267,27 @@ main {
 }
 
 .firstSection_result_row_card_img--1 {
-    background-image: url("../assets/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-image: url("../assets/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
 }
 
 .firstSection_result_row_card_img--2 {
-    background-image: url("../assets/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-image: url("../assets/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
 }
 
 .firstSection_result_row_card_img--3 {
-    background-image: url("../assets/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-image: url("../assets/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg");
 }
 
 .firstSection_result_row_card_img--4 {
-    background-image: url("../assets/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-image: url("../assets/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
 }
 
 .firstSection_result_row_card_img--5 {
-    background-image: url("../assets/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-image: url("../assets/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
 }
 
 .firstSection_result_row_card_img--6 {
-    background-image: url("../assets/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-image: url("../assets/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
 }
 
 .firstSection_result_row_card h3 {
@@ -351,15 +359,15 @@ main {
 }
 
 .firstSection_popular_cont_card_img--1 {
-    background-image: url("../assets/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-image: url("../assets/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
 }
 
 .firstSection_popular_cont_card_img--2 {
-    background-image: url("../assets/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-image: url("../assets/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg");
 }
 
 .firstSection_popular_cont_card_img--3 {
-    background-image: url("../assets/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-image: url("../assets/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
 }
 
 .firstSection_popular_cont_card_info {
@@ -386,7 +394,14 @@ main {
 }
 
 .secondSection a {
-    width: 22%;
+    /* width: 22%; */
+    width: 44%;
+}
+
+.secondSection_part1, .secondSection_part2 {
+    display: flex;
+    justify-content: space-between;
+    width: 48%;
 }
 
 .secondSection_container {
@@ -434,7 +449,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 22%;
+    width: 48%;
 }
 
 .secondSection_container_col a {
@@ -449,11 +464,11 @@ main {
 }
 
 .secondSection_container_col_cont-1 {
-height: 320px;
+    height: 320px;
 }
 
 .secondSection_container_col_cont-2 {
-height: 220px;
+    height: 220px;
 }
 
 .secondSection_container_col_cont-3 {
@@ -563,8 +578,131 @@ footer li {
 
 /* For tablet */
 
-@media screen and (max-width: 992px) {
+
+@media screen and (max-width: 1240px) {
+    main, header {
+        padding: 0 40px;
+    }
+
+    .sectionTitle {
+        margin-left: 25px;
+    }
+
+    .headerTop img {
+        margin-top: 40px ;
+    }
+
+    .headerTop ul {
+       width: auto;
+       margin: initial;
+    }
+
+    .headerTop li {
+        margin: initial;
+    }
+
+    .headerBot_filter_cont {
+        flex-direction: column;
+    }
+
+    .headerBot_filter_cont_top {
+        margin-bottom: 22px;
+    }
+
+    /* MAIN TABLET START */
+
+    .firstSection {
+        flex-direction: column-reverse;
+        margin-top: 80px;
+    }
+
+    .firstSection_result {
+        width: 100%;
+    }
+
+    .firstSection_result_row_card h3, .firstSection_popular_cont_card_info_text h3 {
+        font-size: 19px;
+    }
+
+    .firstSection_popular {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .firstSection_popular_cont {
+        flex-direction: row;
+    }
+
+    .firstSection_popular_cont_card {
+        flex-direction: column;
+        width: 90%;
+        background: white;
+    }
+
+    .firstSection_popular_cont_card_img {
+        object-fit: cover;
+        background-size:cover;
+        width: 100%;
+        min-width: initial;
+        height: initial;
+        min-height: 150px;
+    }
+
+    .secondSection_container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .secondSection_part1 {
+        margin: 5px 0 40px 0;
+    }
+ 
+    .secondSection_part1, .secondSection_part2 {
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 50px;
+    } 
+ 
+    .secondSection_part1 a, .secondSection_part2 a {
+        width: 32%;
+    } 
+
+    .secondSection_container_alone {
+        height: 400px;
+        min-width:  33%;
+    }
+
+    .secondSection_container_alone_img {
+        min-height: 325px;
+    }
+
+    .secondSection_container_col {
+        flex-direction: row;
+        width: 64%;
+    }
     
+    .secondSection_container_col_cont {
+        height: 400px;
+    }
+    
+    .secondSection_container_col_cont_img {
+        min-height: 325px;
+    }
+
+    .secondSection_container_col a {
+        width: 47%;
+    }
+
+    /* FOOTER TABLET START */
+
+    footer {
+        justify-content: space-between;
+        padding: 70px 50px;
+    }
+
+    .footer_col {
+        width: auto;
+    }
 }
 
 
