@@ -119,6 +119,12 @@ header {
     cursor: pointer;
 }
 
+.headerBot_search_btn_img {
+    height: 25px;
+    width: 25px;
+    display: none;
+}
+
 .headerBot_filter {
     display: flex;
     margin: 40px 0 55px 0;
@@ -573,7 +579,7 @@ footer li {
 }
 
 
-/* ---- MEDIA QUERIES ---- */
+/* -------- MEDIA QUERIES -------- */
 
 
 /* For tablet */
@@ -624,6 +630,30 @@ footer li {
         font-size: 19px;
     }
 
+    .firstSection_result_row_card_img--1 {
+        background-image: url("../assets/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    }
+    
+    .firstSection_result_row_card_img--2 {
+        background-image: url("../assets/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    }
+    
+    .firstSection_result_row_card_img--3 {
+        background-image: url("../assets/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    }
+    
+    .firstSection_result_row_card_img--4 {
+        background-image: url("../assets/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    }
+    
+    .firstSection_result_row_card_img--5 {
+        background-image: url("../assets/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    }
+    
+    .firstSection_result_row_card_img--6 {
+        background-image: url("../assets/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    }
+
     .firstSection_popular {
         width: 100%;
         margin-bottom: 50px;
@@ -646,6 +676,18 @@ footer li {
         min-width: initial;
         height: initial;
         min-height: 150px;
+    }
+
+    .firstSection_popular_cont_card_img--1 {
+        background-image: url("../assets/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    }
+    
+    .firstSection_popular_cont_card_img--2 {
+        background-image: url("../assets/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    }
+    
+    .firstSection_popular_cont_card_img--3 {
+        background-image: url("../assets/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     }
 
     .secondSection_container {
@@ -676,6 +718,14 @@ footer li {
         min-height: 325px;
     }
 
+    .secondSection_container_alone_img--1 {
+        background-image: url("../assets/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    }
+    
+    .secondSection_container_alone_img--2 {
+        background-image: url("../assets/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    }
+
     .secondSection_container_col {
         flex-direction: row;
         width: 64%;
@@ -693,11 +743,35 @@ footer li {
         width: 47%;
     }
 
+    .secondSection_container_col_cont_img-1 {
+        background-image: url("../assets/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    }
+    
+    .secondSection_container_col_cont_img-2 {
+        background-image: url("../assets/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    }
+    
+    .secondSection_container_col_cont_img-3 {
+        background-image: url("../assets/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    }
+    
+    .secondSection_container_col_cont_img-4 {
+        background-image: url("../assets/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    }
+
     /* FOOTER TABLET START */
 
     footer {
         justify-content: space-between;
-        padding: 70px 50px;
+        padding: 70px 100px 70px 50px;
+    }
+
+    footer h2 {
+        font-size: 20px;
+    }
+
+    footer p {
+        font-size: 12px;
     }
 
     .footer_col {
@@ -709,5 +783,29 @@ footer li {
 /* For mobile */
 
 @media screen and (max-width: 768px) {
-    
+
+    #searchInput {
+        width: 100%;
+    }
+
+    .headerBot_search {
+        width: 100%;
+    }
+
+    .headerBot_search_btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 65px;
+        border-radius: 20px;
+        margin-left: -22px;
+    }
+
+    .headerBot_search_btn_span {
+        display: none;
+    }
+
+    .headerBot_search_btn_img {
+        display: block;
+    }
 }
