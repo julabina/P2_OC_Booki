@@ -315,6 +315,13 @@ main {
     margin-top: 50px ;
     cursor: pointer;
     width: 180px;
+    opacity: 1;
+    transition: 150ms ease-in-out;
+}
+
+.firstSection_result_more:hover {
+    opacity: 0.6;
+    transition: 150ms ease-in-out;
 }
 
 .firstSection_popular {
@@ -985,6 +992,30 @@ footer li {
         min-height: 115px;
     }
 
+    .firstSection_result_row_card_img--1 {
+        background-image: url("../assets/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    }
+    
+    .firstSection_result_row_card_img--2 {
+        background-image: url("../assets/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    }
+    
+    .firstSection_result_row_card_img--3 {
+        background-image: url("../assets/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    }
+    
+    .firstSection_result_row_card_img--4 {
+        background-image: url("../assets/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    }
+    
+    .firstSection_result_row_card_img--5 {
+        background-image: url("../assets/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    }
+    
+    .firstSection_result_row_card_img--6 {
+        background-image: url("../assets/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    }
+
     .firstSection_result_more {
         font-size: 18px;
         margin-top: 20px;
@@ -1016,6 +1047,18 @@ footer li {
         width: auto;
         min-width: 38%;
         min-height: initial;
+    }
+
+    .firstSection_popular_cont_card_img--1 {
+        background-image: url("../assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    }
+    
+    .firstSection_popular_cont_card_img--2 {
+        background-image: url("../assets/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    }
+    
+    .firstSection_popular_cont_card_img--3 {
+        background-image: url("../assets/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     }
 
     .firstSection_popular_cont_card_info {
@@ -1070,9 +1113,34 @@ footer li {
         min-height: 135px;
     }
 
+
+    .secondSection_container_alone_img--1 {
+        background-image: url("../assets/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    }
+    
+    .secondSection_container_alone_img--2 {
+        background-image: url("../assets/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    }
+
     .secondSection_container_col {
         flex-direction: column;
         width: 100%;
+    }
+
+    .secondSection_container_col_cont_img-1 {
+        background-image: url("../assets/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    }
+    
+    .secondSection_container_col_cont_img-2 {
+        background-image: url("../assets/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    }
+    
+    .secondSection_container_col_cont_img-3 {
+        background-image: url("../assets/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    }
+    
+    .secondSection_container_col_cont_img-4 {
+        background-image: url("../assets/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     }
 
     /* FOOTER START FOR MOBILE */
