@@ -929,6 +929,7 @@ footer li {
     .headerBot_info p {
         white-space: normal;
         margin-left: 10px;
+        padding-top: 5px;
         line-height: 1.2;
     }
 
