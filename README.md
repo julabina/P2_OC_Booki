@@ -24,6 +24,9 @@
 
 Live site : [Link](https://julabina.github.io/P2_OC_Booki/)
 
-![](./screenshot.webp)
+![](././design/desktV1.webp)
+
+
+![](././design/mobileV1.webp)
 
 
