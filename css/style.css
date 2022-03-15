@@ -621,6 +621,12 @@ footer li {
         margin-bottom: 22px;
     }
 
+
+    .headerBot_filter_cont_filterCont:hover .headerBot_filter_fiterLogo_logo {
+        transform: initial;
+        transition: none;
+    }
+
     /* MAIN START FOR TABLET */
 
     .firstSection {
@@ -658,6 +664,11 @@ footer li {
     
     .firstSection_result_row_card_img--6 {
         background-image: url("../assets/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    }
+
+    .firstSection_result_more:hover {
+        opacity: 1;
+        transition: none;
     }
 
     .firstSection_popular {
@@ -772,12 +783,17 @@ footer li {
         padding: 70px 100px 70px 50px;
     }
 
-    footer h2 {
-        font-size: 20px;
+    footer a:hover {
+        opacity: 1;
+        transition: none;
     }
 
-    footer p {
-        font-size: 12px;
+    footer h2 {
+        font-size: 18px;
+    }
+
+    footer li {
+        font-size: 16px;
     }
 
     .footer_col {
@@ -924,6 +940,10 @@ footer li {
     .headerBot_info {
         font-size: 14px;
         width: 100%;
+    }
+
+    .headerBot_info_cont {
+        width: 38px;
     }
 
     .headerBot_info p {
