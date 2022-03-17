@@ -640,6 +640,11 @@ footer li {
 
     .firstSection_result_row_card h3, .firstSection_popular_cont_card_info_text h3 {
         font-size: 19px;
+        min-height: 35px;
+    }
+
+    .firstSection_result_row_card p, .firstSection_popular_cont_card_info_text p {
+        min-height: 35px;
     }
 
     .firstSection_result_row_card_img--1 {
@@ -695,6 +700,10 @@ footer li {
         min-height: 150px;
     }
 
+    .firstSection_popular_cont_card_info_text h3 {
+        height: 75px;
+    }
+
     .firstSection_popular_cont_card_img--1 {
         background-image: url("../assets/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     }
@@ -710,6 +719,10 @@ footer li {
     .secondSection_container {
         flex-direction: column;
         width: 100%;
+    }
+
+    .secondSection_container_h3 {
+        padding-right: 25px;
     }
 
     .secondSection_part1 {
@@ -802,7 +815,7 @@ footer li {
 }
 
 
-/* For mobile */
+/* FOR MOBILE */
 
 @media screen and (max-width: 768px) {
     #searchInput {
@@ -1002,9 +1015,11 @@ footer li {
         font-size:16px;
          line-height: 1.1;
          margin-top: 11px;
-    }
-
-    .firstSection_result_row_card p{
+         min-height: initial;
+        }
+        
+        .firstSection_result_row_card p{
+        min-height: initial;
         font-size: 14px;
         margin: 7px 0 9px 0;
     }
@@ -1089,10 +1104,12 @@ footer li {
     .firstSection_popular_cont_card_info_text h3 {
          font-size:16px;
          line-height: 1.1;
-    }
-
-    .firstSection_popular_cont_card_info_text p {
-        font-size: 14px;
+         min-height: initial;
+        }
+        
+        .firstSection_popular_cont_card_info_text p {
+            font-size: 14px;
+            min-height: initial;
     }
 
     .secondSection {
@@ -1121,6 +1138,7 @@ footer li {
      .secondSection_container_h3 {
         font-size: 16px;
         height: 57px;
+        padding-right: initial;
     }
 
     .secondSection_container_alone, .secondSection_container_col_cont {
