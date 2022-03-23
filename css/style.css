@@ -1105,6 +1105,7 @@ footer li {
          font-size:16px;
          line-height: 1.1;
          min-height: initial;
+         height: initial;
         }
         
         .firstSection_popular_cont_card_info_text p {
